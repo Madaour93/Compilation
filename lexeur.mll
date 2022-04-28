@@ -6,7 +6,7 @@
     }
 rule token = parse
     [' ' '\t''\n']            { token lexbuf }
-    | ';'                     {PT_VIRG }
+    | ';'                     { PT_VIRG }
     | ['0'-'9']+              { NOMBRE }
     | '+'                     { PLUS }
     | '-'                     { MOINS }
