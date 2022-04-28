@@ -1,3 +1,4 @@
+
 %token <int> NOMBRE
 %token PLUS MOINS FOIS GPAREN DPAREN EOL
 %left PLUS MOINS
